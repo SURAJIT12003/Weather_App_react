@@ -48,12 +48,12 @@ function App() {
         await fetchForecast(cityName);
       } else {
         setError(data.message || 'City not found.');
-        setWeatherData(null);     // ✅ CLEAR previous weather
+        setWeatherData(null);     // CLEAR previous weather
         setForecastData([]); 
       }
     } catch (err) {
       setError("Network error. Please try again.");
-      setWeatherData(null);     // ✅ CLEAR previous weather
+      setWeatherData(null);     
       setForecastData([]); 
     } finally {
       setLoading(false);
