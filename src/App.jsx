@@ -84,7 +84,7 @@ function App() {
         {forecastData.length > 0 && <ForecastCard forecast={forecastData} />}
       </div>
       <p className="text-center text-sm font-semibold text-indigo-600 dark:text-indigo-400 mt-8">
-  Made with ❤️ by Surajit
+  Made with ❤️ by Ankita Hatui
 </p>
 
     </div>
